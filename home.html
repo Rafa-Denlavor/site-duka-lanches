@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="json/site.webmanifest">
+    <title>Duka Lanches</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-color-especial">
+            <div class="container-fluid m-3">
+              <a class="navbar-brand text-white" href="home.html"><img src="imagens/logo-remove.png" alt="" class="d-inline-block align-top tamanho-logo"></a>
+              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="home.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Home
+                        </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item text-white" href="#sobre">Sobre</a></li>
+                        <li><a class="dropdown-item text-white" href="#beneficios">Benefícios</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item text-white" href="#estabelecimento">Estabelecimento</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="cardapio.html">Cardápio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" aria-current="page" href="horario.html">Horário</a>
+                  </li>
+                </ul>
+                <form class="d-flex text-white">
+                  <button class="btn btn-outline-success" type="submit">Login</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section id="capa">
+          <div class="container-capa">
+            <video class="video-animacao" preload="auto" loop autoplay muted="true">
+            <source src="videos/animacao-hamburguer.mp4" type="video/mp4">
+        </div>
+        <section id="sobre">
+          <h2 class="titulo-padrao estilo-especial">Sobre a hamburgueria</h2>
+          <div>
+            <picture>
+              <img src="imagens/capa.jpg" class="imagem-sobre" alt="...">
+            </picture>
+            <div class="padding-bottom">
+                <p class="descricao">Criada em 21 de dezembro de 2020 por Andressa Ferreira na cidade de São Paulo (Zona Leste), o Duka Lanches traz a proposta de que lanche grande e saboroso não precisa te levar a falência. Te deixar farto e satisfeito é o ideal!
+                <p class="descricao">Conta com um cardápio cheio de hamburgueres dos mais váriados tipos e preços, também temos combos e porções diversificadas. A mais novidade é o combo infantil, que é composto por um hamburguer de poucos ingredientes, suco de caixinha e o brinde do mês.</p>
+                <p class="descricao">Entre os mais pedidos temos o X-Bacon e Monster Salad, porém como grande destaque temos o famoso X Fome: o maior e mais querido lanche da região. Como ingredientes tem 2 pares de pão de hambúrguer, 2 hambúrgueres de 90g, bacon, calabresa, ovo, presunto, mussarela, queijo cheddar, alface, tomate, cebola e muito mais!
+                </p>
+            </div>
+          </div>
+        </section>
+        <section id="beneficios"> 
+          <!--<h2 class="titulo-padrao">Beneficios</h2>-->
+          <picture>
+                <img class="imagem-beneficios"src="imagens/BENEFICIOS.jpeg" alt="">
+          </picture>
+        </section>
+        <section id="estabelecimento"> 
+            <h2 class="titulo-padrao estilo-especial">Estabelecimento</h2>
+            <p class="descricao-localizacao">Hamburgueria localizada na zona leste de São Paulo para retirada e delivery.</p>
+ 
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.736519253034!2d-46.51644938454393!3d-23.61378056941635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce672323c9dcaf%3A0x39184970b1278a85!2sDuka%20Lanches!5e0!3m2!1spt-BR!2sbr!4v1611790142109!5m2!1spt-BR!2sbr" width="1000" height="650" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </main>
+
+    <footer id="rodape">
+        <img class="imagem-rodape" src="imagens/logo-remove.png" alt="">
+        <div class=redes-sociais>
+            <a href="#" target="_blank" rel="external">
+              <i class="fa fa-facebook-official link-none" aria-hidden="true"></i>]
+            </a>
+            <a href="https://www.instagram.com/duka.lanches/?hl=pt-br" target="_blank" rel="external">
+              <i class="fa fa-instagram link-none" aria-hidden="true"></i>
+            </a>
+            <a href="https://wa.me/message/IOB5CJL2CAXFL1" target="_blank" rel="external">
+              <i class="fa fa-whatsapp link-none" aria-hidden="true"></i>
+            </a>
+        </div>
+        <p class="texto-centralizado">&copy; 2021 Duka Lanches - Todos os direitos reservados </p>
+        <p class="texto-centralizado">CNPJ: 40.460.846/0001-29</p>
+    </footer>
+    
+    <script src="https://use.fontawesome.com/c14db14e52.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
