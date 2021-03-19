@@ -93,10 +93,22 @@
     padding-bottom: 1em;
 }
 
+.mapa-responsivo {
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+    margin: 0 200px;
+}
+.mapa-responsivo iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 .mapa {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     padding: 15px 0 50px 0;
 }
 
@@ -153,4 +165,16 @@
 
 .container-horario {
     margin: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .descricao {padding: 0 75px 0 75px;}
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .descricao {padding: 0 25px 0 25px;}
+
 }
