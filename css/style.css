@@ -167,6 +167,8 @@
     margin: 100px;
 }
 
+/*Responsividade*/
+
 @media screen and (max-width: 1200px) {
 
     .descricao {padding: 0 75px 0 75px;}
