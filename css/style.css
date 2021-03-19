@@ -35,7 +35,7 @@
 /*SOBRE O DUKA LANCHES*/
 
 #sobre {
-    background: #3f3e3e;
+    background: #4b4a4a;
 }
 
 .imagem-sobre {
@@ -66,14 +66,10 @@
     padding-bottom: 30px;
 }
 
-/*BENEFICIOS*/
+/*CONTATO*/
 
-.imagem-beneficios {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 50px;
-    width: 700px;
+#contato {
+    background: #3b3a3a;
 }
 
 /*ESTABELECIMENTO*/
