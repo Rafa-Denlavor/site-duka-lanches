@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2? family = Zilla + Slab + Destaque & display = swap'); 
 
 * {
     margin: 0;
@@ -6,6 +7,10 @@
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 } *
+
+#main {
+    background: #1f1d1d;
+}
 
 /* CSS da página do Home*/
 
@@ -20,22 +25,36 @@
     height: 125px;
 }
 
+/*HR*/
+
+.hr {
+    color: white;
+    margin: 2px;
+}
+
 /*ANIMACA0*/
 
-.container-capa {
-    background: #1b1919;
-}
+.h1-slogan {
+    padding: 60px 0 60px 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Zilla Slab Highlight', cursive;
+} 
 
 .video-animacao {
     width: 100%;
     height: 100vh;
-    background-color: #1b1919;
 }
 
 /*SOBRE O DUKA LANCHES*/
 
-#sobre {
-    background: #4b4a4a;
+.section-posicao {
+    padding-left: 250px;
+    padding-right: 250px;
+    background: #1f1d1d;
 }
 
 .imagem-sobre {
@@ -50,13 +69,11 @@
 .titulo-padrao {
     font-size: 2em;
     text-align: center;
-    padding: 1em;
+    padding: 1em 0 1em 0;
     font-weight: bold;
 }
 
 .descricao {
-    padding-right: 250px;
-    padding-left: 250px;
     padding-bottom: 5px;
     color: #FFF;
     text-transform: inherit;
@@ -73,10 +90,6 @@
     color: #FFF;
 }
 
-#estabelecimento {
-    background: #2e2d2d;
-}
-
 .descricao-localizacao {
     color: #FFF;
     text-align: center;
@@ -88,7 +101,6 @@
     padding-bottom:50%;
     position:relative;
     height:0;
-    margin: 0 200px;
 }
 .mapa-responsivo iframe {
     left:0;
@@ -103,15 +115,6 @@
 }
 
 /*CONTATO*/
-
-#contato {
-    background: #3b3a3a;
-}
-
-.padding-especial {
-    padding: 150px;
-    padding-top: 0;
-}
 
 /*RODAPE*/
 
@@ -173,12 +176,16 @@
 
 @media screen and (max-width: 1200px) {
 
-    .descricao {padding: 0 75px 0 75px;}
+    .section-posicao {
+        padding: 0 75px 0 75px;
+    }
 
 }
 
 @media screen and (max-width: 500px) {
 
-    .descricao {padding: 0 25px 0 25px;}
-
+    .section-posicao {padding: 0 25px 0 25px;}
+    .capa-slogan {
+        font-size: 40px;
+    }
 }
