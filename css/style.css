@@ -66,12 +66,6 @@
     padding-bottom: 30px;
 }
 
-/*CONTATO*/
-
-#contato {
-    background: #3b3a3a;
-}
-
 /*ESTABELECIMENTO*/
 
 .estilo-especial {
@@ -106,6 +100,17 @@
 
 .mapa {
     padding: 15px 0 50px 0;
+}
+
+/*CONTATO*/
+
+#contato {
+    background: #3b3a3a;
+}
+
+.padding-especial {
+    padding: 150px;
+    padding-top: 0;
 }
 
 /*RODAPE*/

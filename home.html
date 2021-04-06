@@ -45,7 +45,7 @@
           </div>
         </nav>
   </header>
-  <main>
+  <main id=main>
     <section id="capa">
       <div class="container-capa">
         <video class="video-animacao" preload="auto" loop autoplay muted="true">
@@ -64,64 +64,45 @@
             </p>
         </div>
       </div>
+      <section id="estabelecimento"> 
+        <h2 class="titulo-padrao estilo-especial">Estabelecimento</h2>
+        <p class="descricao-localizacao">Hamburgueria localizada na zona leste de São Paulo para retirada e delivery.</p>
+        <div class="mapa-responsivo">
+          <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.736519253034!2d-46.51644938454393!3d-23.61378056941635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce672323c9dcaf%3A0x39184970b1278a85!2sDuka%20Lanches!5e0!3m2!1spt-BR!2sbr!4v1611790142109!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </section>
     </section>
     <section id="contato"> 
-      <div class="row justify-content-center text-white p-5 pt-0">
+      <div class="row justify-content-center text-white padding-especial">
         <h2 class="titulo-padrao">Entre em contato conosco!</h2>
         <form class="row g-3">
           <div class="col-md-6">
+            <label for="inputName" class="form-label">Nome e sobrenome</label>
+            <input type="name" class="form-control" id="inputName" placeholder="Ana Clara">
+          </div>
+          <div class="col-md-6">
             <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
-          </div>
-          <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Password</label>
-            <input type="password" class="form-control" id="inputPassword4">
+            <input type="email" class="form-control" id="inputEmail4" placeholder="dukalanches@gmail.com">
           </div>
           <div class="col-12">
-            <label for="inputAddress" class="form-label">Address</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-          </div>
-          <div class="col-12">
-            <label for="inputAddress2" class="form-label">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            <label for="inputAddress" class="form-label">Bairro</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Jardim Bela Vista">
           </div>
           <div class="col-md-6">
-            <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity">
+            <label for="inputCity" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="inputCity" placeholder="Santo André">
           </div>
           <div class="col-md-4">
-            <label for="inputState" class="form-label">State</label>
-            <select id="inputState" class="form-select">
-              <option selected>Choose...</option>
-              <option>...</option>
+            <label for="inputState" class="form-label">Estado</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="São Paulo">
             </select>
           </div>
-          <div class="col-md-2">
-            <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
+          <div class="col-12">
           </div>
           <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
+            <button class="btn btn-outline-success" type="submit">Enviar contato</button>
           </div>
-          <div class="col-12">
-            <button class="btn btn-outline-success" type="submit">Enviar contato</button>          </div>
         </form>
-        <picture>
-              <img class="imagem-contato"src="" alt="">
-        </picture>
-      </div>
-    </section>
-    <section id="estabelecimento"> 
-      <h2 class="titulo-padrao estilo-especial">Estabelecimento</h2>
-      <p class="descricao-localizacao">Hamburgueria localizada na zona leste de São Paulo para retirada e delivery.</p>
-      <div class="mapa-responsivo">
-        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.736519253034!2d-46.51644938454393!3d-23.61378056941635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce672323c9dcaf%3A0x39184970b1278a85!2sDuka%20Lanches!5e0!3m2!1spt-BR!2sbr!4v1611790142109!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      </div>
     </section>
   </main>
 
@@ -129,7 +110,7 @@
       <img class="imagem-rodape" src="imagens/logo-remove.png" alt="">
       <div class=redes-sociais>
           <a href="#" target="_blank" rel="external">
-            <i class="fa fa-facebook-official link-none" aria-hidden="true"></i>]
+            <i class="fa fa-facebook-official link-none" aria-hidden="true"></i>
           </a>
           <a href="https://www.instagram.com/duka.lanches/?hl=pt-br" target="_blank" rel="external">
             <i class="fa fa-instagram link-none" aria-hidden="true"></i>
