@@ -14,38 +14,32 @@
 </head>
 <body>
   <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-color-especial">
-          <div class="container-fluid m-3">
-            <a class="navbar-brand text-white" href="home.html"><img src="imagens/logo-remove.png" alt="" class="d-inline-block align-top tamanho-logo"></a>
-            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle text-white" href="home.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item text-white" href="#sobre">Inauguração</a></li>
-                      <li><a class="dropdown-item text-white" href="#beneficios">Benefícios</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item text-white" href="#estabelecimento">Estabelecimento</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="cardapio.html">Cardápio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" aria-current="page" href="horario.html">Horário</a>
-                </li>
-              </ul>
-              <form class="d-flex text-white">
-                <button class="btn btn-outline-success" type="submit">Login</button>
-              </form>
-            </div>
-          </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-color-especial">
+      <div class="container-fluid m-3">
+        <a class="navbar-brand text-white" href="home.html"><img src="imagens/logo-remove.png" alt="" class="d-inline-block align-top tamanho-logo"></a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-white" href="home.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></li>
+            <li><a class="dropdown-item text-white" href="#sobre">Inauguração</a></li>
+            <li><a class="dropdown-item text-white" href="#beneficios">Benefícios</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item text-white" href="#estabelecimento">Estabelecimento</a></li>
+          </ul>
+            <li class="nav-item"><a class="nav-link active text-white" aria-current="page" href="cardapio.html">Cardápio</a></li>
+            <li class="nav-item"><a class="nav-link text-white" aria-current="page" href="horario.html">Horário</a></li>
+          </ul>
+          <form class="d-flex text-white">
+            <button class="btn btn-outline-success" type="submit">Login</button>
+          </form>
+        </div>
+      </div>
+    </nav>
   </header>
-  <main id="main">
+  <main class="main-background-color">
     <section id="slogan" class="section-posicao">
       <h1 class="h1-slogan">Sua fome pede<br>Duka Lanches</h1>
     </section>
@@ -54,35 +48,52 @@
         <video class="video-animacao" preload="auto" loop autoplay muted="true">
         <source src="video/animacao-hamburguer.mp4" type="video/mp4">
       </div>
-      <hr class="hr">
+    </section>
+
+    <hr class="hr">
+
+    <section id="homeCardapio">
+      <h2 class="titulo-padrao">O que desejo pedir?</h2>
+      <p class="descricao">Acesse agora mesmo nosso cardápio e faça o seu pedido de forma fácil e simples!</p>
+      <div class="container-butao">
+        <button class="homeCardapio-botao">Veja o cardápio</button>
+      </div>
+    </section>  
+
+    <hr class="hr">
+
     <section id="sobre" class="section-posicao">
-      <h2 class="titulo-padrao estilo-especial">Inauguração</h2>
-      <div>
+      <h2 class="titulo-padrao estilo-especial">Quando surgiu?</h2>
+      <div class="container-imagem-sobre">
         <picture>
-          <img src="imagens/capa.jpg" class="imagem-sobre" alt="...">
-          <img src="" alt="">
-          <img src="" alt="">
+          <img src="imagens/capa1.jpg" class="imagem-sobre" alt="...">
+          <img src="imagens/capa2.jpg" class="imagem-sobre" alt="">
+          <img src="imagens/capa3.jpg" class="imagem-sobre" alt="">
         </picture>
       </div>
-        <div class="padding-bottom">
-            <p class="descricao">Criada em 21 de dezembro de 2020 por Andressa Ferreira na cidade de São Paulo (Zona Leste), o Duka Lanches traz a proposta de que lanche grande e saboroso não precisa te levar a falência. Te deixar farto e satisfeito é o ideal!
-            <p class="descricao">Conta com um cardápio cheio de hamburgueres dos mais váriados tipos e preços, também temos combos e porções diversificadas. A mais novidade é o combo infantil, que é composto por um hamburguer de poucos ingredientes, suco de caixinha e o brinde do mês.</p>
-            <p class="descricao">Entre os mais pedidos temos o X-Bacon e Monster Salad, porém como grande destaque temos o famoso X Fome: o maior e mais querido lanche da região. Como ingredientes tem 2 pares de pão de hambúrguer, 2 hambúrgueres de 90g, bacon, calabresa, ovo, presunto, mussarela, queijo cheddar, alface, tomate, cebola e muito mais!
-            </p>
-        </div>
+      <div class="padding-bottom">
+        <p class="descricao">Inaugurada em 21 de dezembro de 2020 por Andressa Ferreira, o Duka Lanches traz a proposta de que lanche grande e saboroso não precisa te levar a falência.
+        <p class="descricao">Conta com um cardápio variado com hamburgueres, combos e porções diversificadas. Há até mesmo combos infantis!</p>
+        <p class="descricao">Entre os mais pedidos temos o X-Bacon e Monster Salad, porém como grande destaque temos o famoso X Fome: o maior e mais querido lanche da região, com 2 pares de pão de hambúrguer, 2 hambúrgueres de 90g, bacon, calabresa, ovo, presunto, mussarela, queijo cheddar, alface, tomate, cebola e muito mais!
+        </p>
+      </div>
     </section>
+
     <hr class="hr">
-      <section id="estabelecimento" class="section-posicao"> 
-        <h2 class="titulo-padrao estilo-especial">Estabelecimento</h2>
-        <p class="descricao-localizacao">Hamburgueria localizada na zona leste de São Paulo para retirada e delivery.</p>
-        <div class="mapa-responsivo">
-          <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.736519253034!2d-46.51644938454393!3d-23.61378056941635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce672323c9dcaf%3A0x39184970b1278a85!2sDuka%20Lanches!5e0!3m2!1spt-BR!2sbr!4v1611790142109!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-      </section>
+
+    <section id="estabelecimento" class="section-posicao"> 
+      <h2 class="titulo-padrao estilo-especial">Estabelecimento</h2>
+      <p class="descricao-localizacao">Hamburgueria localizada na zona leste de São Paulo para retirada e delivery.</p>
+      <div class="mapa-responsivo">
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.736519253034!2d-46.51644938454393!3d-23.61378056941635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce672323c9dcaf%3A0x39184970b1278a85!2sDuka%20Lanches!5e0!3m2!1spt-BR!2sbr!4v1611790142109!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </section>
+
       <hr class="hr">
+
     <section id="contato" class="section-posicao"> 
       <div class="row justify-content-center text-white padding-especial">
-        <h2 class="titulo-padrao">Entre em contato conosco!</h2>
+        <h2 class="titulo-padrao">Entre em contato e peça já!</h2>
         <form class="row g-3">
           <div class="col-md-6">
             <label for="inputName" class="form-label">Nome e sobrenome</label>
@@ -100,10 +111,9 @@
             <label for="inputCity" class="form-label">Cidade</label>
             <input type="text" class="form-control" id="inputCity" placeholder="Santo André">
           </div>
-          <div class="col-md-4">
+          <div class="col-md-6">
             <label for="inputState" class="form-label">Estado</label>
             <input type="text" class="form-control" id="inputAddress" placeholder="São Paulo">
-            </select>
           </div>
           <div class="col-12">
           </div>
@@ -115,20 +125,20 @@
   </main>
 
   <footer id="rodape">
-      <img class="imagem-rodape" src="imagens/logo-remove.png" alt="">
-      <div class=redes-sociais>
-          <a href="#" target="_blank" rel="external">
-            <i class="fa fa-facebook-official link-none" aria-hidden="true"></i>
-          </a>
-          <a href="https://www.instagram.com/duka.lanches/?hl=pt-br" target="_blank" rel="external">
-            <i class="fa fa-instagram link-none" aria-hidden="true"></i>
-          </a>
-          <a href="https://wa.me/message/IOB5CJL2CAXFL1" target="_blank" rel="external">
-            <i class="fa fa-whatsapp link-none" aria-hidden="true"></i>
-          </a>
-      </div>
-      <p class="texto-centralizado">&copy; 2021 Duka Lanches - Todos os direitos reservados </p>
-      <p class="texto-centralizado">CNPJ: 40.460.846/0001-29</p>
+    <img class="imagem-rodape" src="imagens/logo-remove.png" alt="">
+    <div class=redes-sociais>
+      <a href="#" target="_blank" rel="external">
+        <i class="fa fa-facebook-official link-none" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/duka.lanches/?hl=pt-br" target="_blank" rel="external">
+        <i class="fa fa-instagram link-none" aria-hidden="true"></i>
+      </a>
+      <a href="https://wa.me/message/IOB5CJL2CAXFL1" target="_blank" rel="external">
+        <i class="fa fa-whatsapp link-none" aria-hidden="true"></i>
+      </a>
+    </div>
+    <p class="texto-centralizado">&copy; 2021 Duka Lanches - Todos os direitos reservados </p>
+    <p class="texto-centralizado">CNPJ: 40.460.846/0001-29</p>
   </footer>
   
   <script src="https://use.fontawesome.com/c14db14e52.js"></script>
