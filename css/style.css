@@ -9,7 +9,7 @@
     text-decoration: none;
 } *
 
-.main-background-color {
+.background-color-especial {
     background: #1f1d1d;
 }
 
@@ -179,6 +179,10 @@
 }
 
 /* CSS de da página do Cardápio*/
+
+#combos, .card-body, .list-group-item {
+    background-color: #1f1d1d;
+}
 
 .card-posicao-imagem {
     object-fit: cover;
