@@ -1,0 +1,17 @@
+#combos, .card-body, .list-group-item {
+    background-color: #1f1d1d;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 290px;
+}
+
+.card-largura {
+    max-width: 18rem;
+}
+
+.card-titulo {
+    font-weight: bold;
+    text-decoration: italic;
+}

@@ -1,36 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2? family = Zilla + Slab + Destaque & display = swap'); 
-
-* {
-    margin: 0;
-    padding: 0;
-    color: #FFF;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-} *
-
-.background-color-especial {
-    background: #1f1d1d;
-}
-
-/* CSS da página do Home*/
-
-/*MENU*/
-
-.bg-color-especial {
-    background: #1b1919;
-}
-
 .tamanho-logo {
     width: 125px;
     height: 125px;
-}
-
-/*HR*/
-
-.hr {
-    color: #25692A;
-    padding-bottom: 4px;
 }
 
 /*ANIMACA0*/
@@ -53,12 +23,6 @@
 
 /*SOBRE O DUKA LANCHES*/
 
-.section-posicao {
-    padding-left: 250px;
-    padding-right: 250px;
-    background: #1f1d1d;
-}
-
 .container-imagem-sobre {
     display: flex;
     align-items: center;
@@ -77,12 +41,7 @@
     background-color: white;
 }
 
-.titulo-padrao {
-    font-size: 2em;
-    text-align: center;
-    padding: 1em 0 1em 0;
-    font-weight: bold;
-}
+
 
 .descricao {
     padding-bottom: 5px;
@@ -96,6 +55,12 @@
 }
 
 /**CARDÁPIO HOME*/
+
+.imagem-cardapio {
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
+}
 
 .homeCardapio-botao {
     color: #25692A;
@@ -176,66 +141,4 @@
     text-align: center;
     padding-bottom: 10px;
     margin: 0 auto;
-}
-
-/* CSS de da página do Cardápio*/
-
-#combos, .card-body, .list-group-item {
-    background-color: #1f1d1d;
-}
-
-.card-posicao-imagem {
-    object-fit: cover;
-    height: 290px;
-};
-
-.card-largura {
-    max-width: 18rem;
-}
-
-.card-titulo {
-    font-weight: bold;
-    text-decoration: italic;
-}
-
-/* CSS da página de Horário*/
-
-.container-horario {
-    margin: 100px;
-    margin-top: 30px;
-}
-
-/*Responsividade*/
-
-@media screen and (max-width: 1400px) {
-
-    .section-posicao {
-        padding: 0 75px 0 75px;
-    }
-    .imagem-sobre {
-        height: 300px;
-        width: 220px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .imagem-sobre {
-        height: 220px;
-        width: 130px;
-    }
-
-}
-@media screen and (max-width: 500px) {
-
-    .section-posicao {
-        padding: 0 25px 0 25px;
-    }
-    .capa-slogan {
-        font-size: 40px;
-    }
-    .imagem-sobre {
-        height: 100px;
-        width: 80px;
-        padding: 0;
-    }
 }
