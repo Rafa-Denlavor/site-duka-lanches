@@ -2,6 +2,20 @@
     background-color: #1f1d1d;
 }
 
+.capa-cardapio {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 60%;
+}
+
+.slogan {
+    text-align: center;
+    padding-top: 30px;
+    padding: 20px 0 10px 0;
+    font-size: 3em;
+}
+
 .card-posicao-imagem {
     object-fit: cover;
     height: 290px;

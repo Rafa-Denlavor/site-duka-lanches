@@ -18,6 +18,44 @@
     padding-bottom: 40px;
 }
 
+
+/**CARDÁPIO HOME*/
+
+.imagem-cardapio {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 60%;
+}
+
+.homeCardapio-botao {
+    border:1px solid #25692A;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-weight:bold;
+    padding:6px 10px;
+    background: none;
+}
+
+.homeCardapio-botao:hover {
+    background-color: #25692A;
+}
+
+.homeCardapio-botao a {
+    text-decoration: none;
+    color: #25692A;
+}
+
+.homeCardapio-botao a:hover {
+    color: #FFF;
+}
+
+.container-botao {
+    display: flex;
+    justify-content: center;
+}
+
 /*SOBRE O DUKA LANCHES*/
 
 .container-imagem-sobre {
@@ -51,30 +89,6 @@
     padding-bottom: 30px;
 }
 
-/**CARDÁPIO HOME*/
-
-.imagem-cardapio {
-    height: 420px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.homeCardapio-botao {
-    color: #25692A;
-    border:1px solid #25692A;
-    border-radius:4px;
-    display:inline-block;
-    cursor:pointer;
-    font-weight:bold;
-    padding:6px 10px;
-    text-decoration:none;
-    background: none;
-}
-
-.container-butao {
-    display: flex;
-    justify-content: center;
-}
 
 /*ESTABELECIMENTO*/
 
