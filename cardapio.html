@@ -10,15 +10,16 @@
   <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
   <link rel="manifest" href="json/site.webmanifest">
   <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/inicio.css">
   <link rel="stylesheet" href="css/cardapio.css">
-    <title>Cardápio - Duka Lanches</title>
+    <title>Cardápio | Duka Lanches</title>
 </head>
 <body>
   <header>
     <header>
     <nav class="navbar navbar-expand-lg navbar-light background-color-especial">
       <div class="container-fluid m-3">
-        <a class="navbar-brand text-white" href="home.html"><img src="imagens/logo-remove.png" alt="" class="d-inline-block align-top tamanho-logo"></a>
+        <a class="navbar-brand text-white" href="inicio.html"><img src="imagens/logo.png" alt="" class="d-inline-block align-top tamanho-logo"></a>
         <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,7 +30,7 @@
             <li class="nav-item"><a class="nav-link text-white" aria-current="page" href="horario.html">Horário</a></li>
           </ul>
           <form class="d-flex text-white">
-            <button class="btn btn-outline-success" type="submit">Login</button>
+            <button style="display: none;" class="btn btn-outline-success" type="submit">Login</button>
           </form>
         </div>
       </div>
@@ -43,15 +44,21 @@
       </picture>
       <h2 class="slogan">Hamburgueres colosais pra matar X fomes</h2>
       <p class="text-center pb-2">Temos diversos tipos de hamburgueres, combos e porções para você se deliciar.<br>Nos comprometemos  com o sabor, qualidade dos produtos e uma entrega ágil. Peça já o seu!</p>
+      <div class="container-botao">
+        <button type="submit" class="botao"><a href="tel:+5511953628787">Whatsapp</a></button>
+      </div>
+
+      <hr class="hr">
+
       <h2 class="titulo-padrao">Hambúrgueres</h2>
     </section>
     <section id="hamburgueres" class="container-fluid">
       <div class="row justify-content-center">
-        <article class="card card-largura col-6 col-md-4 p-0 m-4">
+        <article class="card card-largura col-12 col-md-6 p-0 m-4">
           <img src="imagens/little-kids.jpg" class="card-img-top card-posicao-imagem" style="object-position: 0 30%;" alt="Hamburguer pequeno projetado para crianças"><!--Foto de Polina Tankilevitch no Pexels-->
           <div class="card-body">
             <h5 class="card-title card-titulo">Little Kids</h5>
-            <p class="card-text">1 pão de hambúrguer, 1 hambúrguer 90g, queijo cheddar, catupiry, maionese, catchup e molho especial.</p>
+            <p class="card-text">1 pão de hambúrguer, 1 hambúrguer 90g, cheddar, catupiry, maionese, ketchup e molho especial.</p>
             <hr>
             <ul class="list-group list-group-flush">
               <li class="list-group-item fst-italic fw-bold">R$ 10,00</li>
@@ -59,10 +66,10 @@
           </div>
         </article>
         <article class="card card-largura col-12 col-md-6 p-0 m-4">
-          <img src="imagens/egg-explosion.jpg" class="card-img-top card-posicao-imagem" alt="Hamburguer especial mediado de ovo"><!--Foto de Samarth Singhai no Pexels-->
+          <img src="imagens/X-Egg.jpeg" style="object-position: 0 75%;" class="card-img-top card-posicao-imagem" alt="Hamburguer especial mediado de ovo"><!--Foto de Samarth Singhai no Pexels-->
           <div class="card-body">
-            <h5 class="card-title card-titulo">Egg Explosion</h5>
-            <p class="card-text">1 pão de hambúrgu er, 2 hambúrguer 56g, ovo, alface, tomate, cebola, maionese, catchup e molho especial.</p>
+            <h5 class="card-title card-titulo">X-Egg</h5>
+            <p class="card-text">1 pão de hambúrguer, 2 ha,búrguer 56g, ovo, alface, tomate, cebola, maionese, ketchup e molho especial.</p>
             <hr>
             <ul class="list-group list-group-flush">
               <li class="list-group-item fst-italic fw-bold">R$ 14,00</li>
@@ -70,10 +77,32 @@
           </div>
         </article>
         <article class="card card-largura col-12 col-md-6 p-0 m-4">
-          <img src="imagens/monster-salad.jpg" class="card-img-top card-posicao-imagem" alt="Hamburguer grande com bastante salada e queijo"><!--Foto de Horizon Content no Pexels-->
+          <img src="imagens/moster-salad.jpeg" class="card-img-top card-posicao-imagem" alt="Hamburguer grande com bastante salada e queijo"><!--Foto de Horizon Content no Pexels-->
           <div class="card-body">
             <h5 class="card-title card-titulo">Monster Salad</h5>
             <p class="card-text">1 pão de hambúrguer, 1 hambúrguer 90g, salada, tomate, cebola, queijo prato, maionese, catchup e molho especial.</p>
+            <hr>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item fst-italic fw-bold">R$ 14,00</li>
+            </ul>
+          </div>
+        </article>
+        <article class="card card-largura col-12 col-md-6 p-0 m-4">
+          <img src="imagens/x-steak.jpg" class="card-img-top card-posicao-imagem" style="object-position: 0 80%;" alt="Hamburguer mediano com um steak mediano e salada"><!--Foto de Jonathan Borba no Pexels-->
+          <div class="card-body">
+            <h5 class="card-title card-titulo">X-Steak</h5>
+            <p class="card-text">1 pão de hambúrguer, 1 steak, mussarela, alface, tomate, maionese, ketchup e molho especial.</p>
+            <hr>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item fst-italic fw-bold">R$ 14,00</li>
+            </ul>
+          </div>
+        </article>
+        <article class="card card-largura col-12 col-md-6 p-0 m-4">
+          <img src="imagens/x-calabresa.jpeg" class="card-img-top card-posicao-imagem" alt="Hamburguer grande com bastante salada e queijo"><!--Foto de Horizon Content no Pexels-->
+          <div class="card-body">
+            <h5 class="card-title card-titulo">X-Calabresa</h5>
+            <p class="card-text">1 pão de hambúrguer, 1 hambúrguer 90g, mussarela, alface, tomate, cebola, catupiry, maionese, ketchup e molho especial.</p>
             <hr>
             <ul class="list-group list-group-flush">
               <li class="list-group-item fst-italic fw-bold">R$ 15,00</li>
@@ -81,51 +110,40 @@
           </div>
         </article>
         <article class="card card-largura col-12 col-md-6 p-0 m-4">
-          <img src="imagens/x-steak.jpg" class="card-img-top card-posicao-imagem" style="object-position: 0 80%;" alt="Hamburguer mediano de steak e salada"><!--Foto de Jonathan Borba no Pexels-->
-          <div class="card-body">
-            <h5 class="card-title card-titulo">X-Steak</h5>
-            <p class="card-text">1 pão de hambúrguer, 1 steak, mussarela, alface, tomate, maionese, catchup e molho especial.</p>
-            <hr>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item fst-italic fw-bold">R$ 14,00</li>
-            </ul>
-          </div>
-        </article>
-        <article class="card card-largura col-12 col-md-6 p-0 m-4">
-          <img src="imagens/duo-chicken.jpeg" class="card-img-top card-posicao-imagem" style="object-position: 0 80%;" alt="Hamburguer mediado com 2 pedaços medianos de frango e salada"><!--Foto de Eiliv Aceron no Pexels-->
-          <div class="card-body">
-            <h5 class="card-title card-titulo">Duo Chicken</h5>
-            <p class="card-text">1 pão de hambúrguer, 2 ckicken's medianos, mussarela, alface, tomate, maionese, catchup e molho especial.</p>
-            <hr>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item fst-italic fw-bold">R$ 17,00</li>
-            </ul>
-          </div>
-        </article>
-        <article class="card card-largura col-12 col-md-6 p-0 m-4">
-          <img src="imagens/x-bacon.jpg" class="card-img-top card-posicao-imagem" alt="Hamburguer grande com bastante bacon e diversos ingredientes">
+          <img src="imagens/x-bacon.jpeg" class="card-img-top card-posicao-imagem" alt="Hamburguer grande com bastante bacon e diversos ingredientes">
           <div class="card-body">
             <h5 class="card-title card-titulo">X-Bacon</h5>
-            <p class="card-text">1 pão de hambúrguer, 1 hambúrguer 90g, bacon, mussarela, alface, tomate, cheddar, maionese e catchup e molho especial.</p>
+            <p class="card-text">1 pão de hambúrguer, 1 hambúrguer 90g, bacon, mussarela, alface, tomate, cheddar, maionese e ketchup e molho especial.</p>
             <hr>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item fst-italic fw-bold">R$ 17,00</li>
+              <li class="list-group-item fst-italic fw-bold">R$ 15,00</li>
           </ul>
           </div>
         </article>
         <article class="card card-largura col-12 col-md-6 p-0 m-4">
-          <img src="imagens/big-cheddar.jpg" class="card-img-top card-posicao-imagem" alt="Hamburguer especial mediado de ovo"><!--Foto de Ahmed Rabea no Pexels-->
+          <img src="imagens/big-cheddar.jpeg" class="card-img-top card-posicao-imagem" alt="Hamburguer especial mediado de ovo"><!--Foto de Ahmed Rabea no Pexels-->
           <div class="card-body">
             <h5 class="card-title card-titulo">Big Cheddar</h5>
-            <p class="card-text">1 pão de hambúrguer, 2 hambúrguer 56g, queijo prato, cheddar, catchup e molho especial.</p>
+            <p class="card-text">1 pão de hambúrguer, 2 hambúrguer 56g, queijo prato, cheddar, ketchup, maionese e molho especial.</p>
             <hr>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item fst-italic fw-bold">R$ 18,00</li>
+              <li class="list-group-item fst-italic fw-bold">R$ 17,00</li>
             </ul>
           </div>
         </article>
         <article class="card card-largura col-12 col-md-6 p-0 m-4">
-          <img src="imagens/X-fome.jpeg" class="card-img-top card-posicao-imagem" alt="Hamburguer gigante com 5 pãos, 2 hamburguers e diversos ingredientes">
+          <img src="imagens/duo-chicken.jpeg" class="card-img-top card-posicao-imagem" style="object-position: 0 80%;" alt="Hamburguer grande com 3 hamburguers, bacon e muito barbecue."><!--Foto de Eiliv Aceron no Pexels-->
+          <div class="card-body">
+            <h5 class="card-title card-titulo">Moster Barbecue</h5>
+            <p class="card-text">1 pão de hambúrguer, 3 hamburguers, bacon e barbecue.</p>
+            <hr>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item fst-italic fw-bold">R$ 17,00</li>
+            </ul>
+          </div>
+        </article>
+        <article class="card card-largura col-12 col-md-6 p-0 m-4">
+          <img src="imagens/x-fome.jpeg" class="card-img-top card-posicao-imagem" alt="Hamburguer gigante com 5 pãos, 2 hamburguers e diversos ingredientes. Uma enxurada de sabor.">
           <div class="card-body">
             <h5 class="card-title card-titulo">X-Fome</h5>
             <p class="card-text">1 pão de hambúrguer, 1 hambúrguer 90g, bacon, mussarela, alface, tomate, cheddar, maionese e catchup e molho especial.</p>
@@ -142,7 +160,7 @@
       <div class="row justify-content-center">
 
         <article class="card card-largura col-12 col-md-6 p-0 m-4">
-          <img src="imagens/combo-kids-1.jpg" class="card-img-top card-posicao-imagem" alt="Combo especial para satisfazer uma criança"><!--Foto de Daniel Reche no Pexels-->
+          <img src="imagens/little-kids.jpg" class="card-img-top card-posicao-imagem" alt="Combo especial para satisfazer uma criança"><!--Foto de Daniel Reche no Pexels-->
           <div class="card-body">
             <h5 class="card-title card-titulo">Combo Kids 1</h5>
             <p class="card-text">1 little kids (ou misto quente), 1 suco 200ml, 1 batata pequena e o brinde do mês.</p>
@@ -164,7 +182,7 @@
           </div>
         </article>
         <article class="card card-largura col-12 col-md-6 p-0 m-4">
-          <img src="imagens/combo-casal.jpg" class="card-img-top card-posicao-imagem" alt="Combo para satisfazer duas pessoas"><!--Foto de Kristina Paukshtite no Pexels-->
+          <img src="imagens/combo-casal.jpeg" class="card-img-top card-posicao-imagem" alt="Combo para satisfazer duas pessoas"><!--Foto de Kristina Paukshtite no Pexels-->
           <div class="card-body">
             <h5 class="card-title card-titulo">Combo Casal</h5>
             <p class="card-text">2 Salad Monster, 2 porções médias e refrigerante 2L.</p>
@@ -175,24 +193,24 @@
           </div>
         </article>
         <article class="card card-largura col-12 col-md-6 p-0 m-4">
-          <img src="imagens/combo-galera.jpg" class="card-img-top card-posicao-imagem" style="object-position: 0 70%;" alt="Combo para satisfazer de 4 a 6 pessoas"><!--Foto de Lovefood Art no Pexels-->
+          <img src="imagens/combo-batata.jpeg" class="card-img-top card-posicao-imagem" alt="Combo família a combinar com a hamburgueria"><!--Foto de Tioroshi Lazaro no Pexels-->
           <div class="card-body">
-            <h5 class="card-title card-titulo">Combo Galera</h5>
-            <p class="card-text">4 hamburgueres (opções: Monster Salad, Egg Explosion e X-Steak), 2 porções grandes e refrigerante 2L.</p>
+            <h5 class="card-title card-titulo">Combo Batata Master</h5>
+            <p class="card-text">Muita batata, bacon, queijo ralado, ketchup, maionese e molho especial.</p>
             <hr>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item fst-italic fw-bold">R$ 80,00</li>
+              <li class="list-group-item fst-italic fw-bold">50,00</li>
             </ul>
           </div>
         </article>
         <article class="card card-largura col-12 col-md-6 p-0 m-4">
-          <img src="imagens/combo-familia.jpg" class="card-img-top card-posicao-imagem" alt="Combo família a combinar com a hamburgueria"><!--Foto de Tioroshi Lazaro no Pexels-->
+          <img src="imagens/combo-galera.jpeg" class="card-img-top card-posicao-imagem" style="object-position: 0 70%;" alt="Combo para satisfazer de 4 a 6 pessoas"><!--Foto de Lovefood Art no Pexels-->
           <div class="card-body">
-            <h5 class="card-title card-titulo">Combo Família</h5>
-            <p class="card-text">A combinar</p>
+            <h5 class="card-title card-titulo">Combo Galera</h5>
+            <p class="card-text">4 hamburgueres (opções: Moster Salad, X-Egg e X-Steak), 2 porções grandes e refrigerante 2L.</p>
             <hr>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item fst-italic fw-bold">A combinar</li>
+              <li class="list-group-item fst-italic fw-bold">R$ 80,00</li>
             </ul>
           </div>
         </article>
@@ -201,7 +219,7 @@
   </main>
 
   <footer id="rodape">
-    <img class="imagem-rodape" src="imagens/logo-remove.png" alt="">
+    <img class="imagem-rodape" src="imagens/logo.png" alt="">
     <div class=redes-sociais>
         <a href="#" target="_blank" rel="external">
           <i class="fa fa-facebook-official link-none" aria-hidden="true"></i>

@@ -107,4 +107,7 @@ header {
         width: 80px;
         padding: 0;
     }
+    .video-animacao {
+        display: none;
+    }
 }
