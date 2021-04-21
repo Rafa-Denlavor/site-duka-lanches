@@ -86,18 +86,10 @@ header {
     }
 }
 
-@media screen and (max-width: 800px) {
-    .imagem-sobre {
-        height: 220px;
-        width: 130px;
-    }
-
-}
-
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
 
     .section-posicao {
-        padding: 0 25px 0 25px;
+        padding: 0 20px 0 20px;
     }
     .capa-slogan {
         font-size: 40px;
@@ -109,5 +101,14 @@ header {
     }
     .video-animacao {
         display: none;
+    }
+    .container-texto {
+        padding: 0 10px 20px 10px;
+    }
+    .descricao {
+        padding: 0;
+    }
+    ..imagem-cardapio {
+        object-position: 30% 0%;
     }
 }

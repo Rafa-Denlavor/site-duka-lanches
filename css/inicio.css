@@ -61,7 +61,8 @@
 .container-imagem-sobre {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+
 }
 
 .imagem-sobre {
@@ -79,14 +80,13 @@
 
 
 .descricao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding-bottom: 5px;
     color: #FFF;
     text-transform: inherit;
     text-align: center;
-}
-
-.container-texto {
-    padding: 0 115px 30px 115px;
 }
 
 
