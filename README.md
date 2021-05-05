@@ -1,4 +1,7 @@
 # duka-lanches
+
+![](./imagens/logo.png)
+
 Site criado a partir das regras de negócio da hamburgueria Duka Lanches com o objetivo de obter um maior alcance de clientes.
 ## Tencologias utilizadas
 
