@@ -99,16 +99,13 @@ header {
         width: 80px;
         padding: 0;
     }
-    .video-animacao {
-        display: none;
-    }
     .container-texto {
         padding: 0 10px 20px 10px;
     }
     .descricao {
         padding: 0;
     }
-    ..imagem-cardapio {
+    .imagem-cardapio {
         object-position: 30% 0%;
     }
 }
