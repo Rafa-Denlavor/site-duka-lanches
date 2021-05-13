@@ -47,13 +47,14 @@ header {
 
 #rodape {
     background: #1b1919;
+    padding: 0.5rem;
 }
 
 .imagem-rodape {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 150px;
+    width: 100px;
 }
 
 .redes-sociais {
