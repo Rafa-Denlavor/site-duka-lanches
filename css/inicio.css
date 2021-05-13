@@ -3,7 +3,6 @@
 /*ANIMACA0*/
 
 .h1-slogan {
-    padding: 60px 0 60px 0;
     text-align: center;
     color: #FFF;
     font-size: 70px;
@@ -15,10 +14,12 @@
 /**CARDÁPIO HOME*/
 
 .imagem-cardapio {
+    display: flex;
     height: 350px;
-    width: 100%;
+    width: 70%;
     object-fit: cover;
     object-position: 0 60%;
+    margin: auto;
 }
 
 .botao {

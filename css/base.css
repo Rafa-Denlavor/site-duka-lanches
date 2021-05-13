@@ -19,8 +19,9 @@ header {
 }
 
 .tamanho-logo {
-    width: 125px;
-    height: 125px;
+    padding: 0 2rem;
+    width: 170px;
+
 }
 
 .section-posicao {
